@@ -9,7 +9,10 @@ This project benchmarks local speech-to-text (ASR) models on AMD hardware withou
 - [North Star](./northstar.md) - Why this project exists and what we're trying to achieve
 
 ### Implementation
-- [Implementation Plan](./plans/implementation-plan.md) - Full technical plan with corrections and details
+- [Implementation Plan](./plans/implementation-plan.md) - Phases, PRs, workflow
+- [Architecture & Code Design](./plans/architecture.md) - Interfaces, TDD specs, code examples
+- [Environment Verification](./plans/environment_verification_report.md) - ROCm setup, corrected snippets
+- [Model Insights Deep Dive](./plans/model_insights_deep_dive.md) - Gotchas, risks, practical advice
 
 ### Development
 - [Testing Guide](./dev/testing.md) - How to run benchmarks, add models, interpret results
