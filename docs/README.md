@@ -36,7 +36,7 @@ Each model family has its own documentation:
 python setup_env.py
 
 # 2. Download all model weights
-python download_models.py
+python download_models.py  # ✓ COMPLETED (2026-01-20) - 75GB downloaded
 
 # 3. Add your test audio files
 cp your_audio.wav snippets/
@@ -48,6 +48,22 @@ python benchmark.py
 # 5. Check results
 cat results/results.csv
 ```
+
+## Downloaded Models Status
+
+**Last Updated**: 2026-01-20
+
+All 7 ASR models have been successfully downloaded from HuggingFace (~75GB total):
+
+| Model | Size | Status | Location |
+|-------|------|--------|----------|
+| Distil-Whisper Large V3 | 12 GB | ✓ Ready | `models/distil-whisper/files` |
+| Granite Speech 2B | 11 GB | ✓ Ready | `models/granite-2b/files` |
+| Granite Speech 8B | 17 GB | ✓ Ready | `models/granite-8b/files` |
+| Voxtral Mini 3B | 18 GB | ✓ Ready | `models/voxtral/files` |
+| Phi-4 Multimodal | 12 GB | ✓ Ready | `models/phi4/files` |
+| Whisper V3 Turbo (Q5_0) | 548 MB | ✓ Ready | `models/whisper-cpp/` |
+| Moonshine Base ONNX | 4.3 GB | ✓ Ready | `models/moonshine/files` |
 
 ## Hardware Requirements
 

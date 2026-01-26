@@ -20,7 +20,7 @@ Benchmark 7 speech-to-text models on AMD Strix Halo hardware to find the best ac
 python setup_env.py
 
 # 2. Download model weights
-python download_models.py
+python download_models.py  # ✅ COMPLETED (2026-01-20)
 
 # 3. Add test audio
 cp your_audio.wav snippets/
@@ -181,7 +181,14 @@ Start here - most stable model, establishes the transformers pattern.
 ## Verification Checklist
 
 1. **Environment**: `python setup_env.py` → ROCm detected, all imports work
-2. **Models**: `python download_models.py` → all weights cached in `./models/`
+2. **Models**: ✅ **COMPLETED (2026-01-20)** - All 7 models downloaded (~75GB) to `./models/`
+   - ✅ Distil-Whisper Large V3 (12 GB)
+   - ✅ Granite Speech 2B (11 GB)
+   - ✅ Granite Speech 8B (17 GB)
+   - ✅ Voxtral Mini 3B (18 GB)
+   - ✅ Phi-4 Multimodal (12 GB)
+   - ✅ Whisper V3 Turbo Q5_0 (548 MB)
+   - ✅ Moonshine Base ONNX (4.3 GB)
 3. **Benchmark**: `python benchmark.py` → results.csv generated
 4. **Validate**:
    - All 7 models in results (or error entries for failures)

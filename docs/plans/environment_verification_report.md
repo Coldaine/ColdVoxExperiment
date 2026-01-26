@@ -87,3 +87,10 @@ print(processor.batch_decode(generate_ids, skip_special_tokens=True)[0])
 
 ## 4. Conclusion
 The plan structure is solid, but the specific implementation details for **Moonshine** and **Phi-4** were broken or vague. The code snippets above provide the concrete "how-to" needed to actually run these models.
+
+## 5. Verification Log (Ran on Jan 20, 2026)
+
+*   **PyTorch**: `2.9.1+rocm7.11` (Nightly) - **INSTALLED**
+*   **ROCm Availability**: `True` (Device detected)
+*   **Dependencies**: `transformers`, `librosa`, `onnxruntime` - **INSTALLED**
+*   **Status**: **READY FOR BENCHMARKING**
