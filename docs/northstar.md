@@ -45,6 +45,7 @@ The AI/ML ecosystem is heavily optimized for NVIDIA CUDA. This project explores 
 - **Training or fine-tuning** - Inference benchmarking only
 - **Windows vs Linux comparison** - Windows-first, Linux later if needed
 - **Comprehensive WER benchmarking** - Focus on relative comparison, not absolute scores
+- **CUDA-dependent workflows** - Any model requiring a CUDA machine for export/preparation (e.g., NVIDIA NeMo) is excluded. We focus on models native to PyTorch/ROCm or ONNX.
 
 ## Why 128GB RAM Matters
 

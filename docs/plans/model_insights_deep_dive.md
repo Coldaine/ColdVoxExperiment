@@ -42,3 +42,6 @@ Don't just measure WER/RTF. Measure **"Time to First Headache"**:
 3.  **Whisper V3**: Medium headache (hallucinations).
 4.  **Granite**: High headache (architecture).
 5.  **Voxtral**: Extreme headache (bugs).
+
+## 5. Excluded Models
+*   **NVIDIA Parakeet/NeMo Models**: Explicitly excluded. While powerful, they require a CUDA environment for the initial export to ONNX. To maintain a strict "AMD Strix Halo Native" workflow, we will skip these unless pre-exported ONNX files become standard.
